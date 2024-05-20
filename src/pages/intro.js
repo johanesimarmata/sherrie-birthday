@@ -98,6 +98,7 @@ const IntroPage = () => {
         deadline.setMinutes(0)
         deadline.setSeconds(0)
         clearTimer(deadline);
+        // eslint-disable-next-line
     }, []);
 
     const getRemainingDays = () => {

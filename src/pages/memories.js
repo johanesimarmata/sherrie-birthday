@@ -8,11 +8,11 @@ import Invitation1 from "../sherrie-images/invitation-1.png"
 import Invitation2 from "../sherrie-images/invitation-2.png"
 
 const StoriesLazy = React.lazy(() => import("react-insta-stories"));
-const WithSeeMore = React.lazy(() =>
-  import("react-insta-stories").then((module) => ({
-    default: module.WithSeeMore,
-  }))
-);
+// const WithSeeMore = React.lazy(() =>
+//   import("react-insta-stories").then((module) => ({
+//     default: module.WithSeeMore,
+//   }))
+// );
 
 
 const MemoriesPage = () => {
@@ -193,18 +193,18 @@ const stories2 = [
     // },
 ];
 
-const image = {
-    display: "block",
-    maxWidth: "100%",
-    borderRadius: 4,
-  };
+// const image = {
+//     display: "block",
+//     maxWidth: "100%",
+//     borderRadius: 4,
+//   };
   
-const code = {
-    background: "#eee",
-    padding: "5px 10px",
-    borderRadius: "4px",
-    color: "#333",
-};
+// const code = {
+//     background: "#eee",
+//     padding: "5px 10px",
+//     borderRadius: "4px",
+//     color: "#333",
+// };
   
 const contentStyle = {
     background: "#333",
@@ -214,11 +214,11 @@ const contentStyle = {
     height: "100%",
 };
   
-const customSeeMore = {
-    textAlign: "center",
-    fontSize: 14,
-    bottom: 20,
-    position: "relative",
-};
+// const customSeeMore = {
+//     textAlign: "center",
+//     fontSize: 14,
+//     bottom: 20,
+//     position: "relative",
+// };
 
 export default MemoriesPage
