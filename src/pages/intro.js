@@ -230,7 +230,7 @@ const ModalPassword = ({isOpen, onClose}) => {
                 position: 'top'
             })
             return
-        } else if (finalPassword = "230502") {
+        } else if (finalPassword === "230502") {
             toast({
                 title: `Geer lu, bukan tanggal lahir lu`,
                 status: "error",
