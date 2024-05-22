@@ -94,8 +94,8 @@ const IntroPage = () => {
         deadline.setDate(23)
         deadline.setMonth(4)
         deadline.setFullYear(2024)
-        deadline.setHours(10)
-        deadline.setMinutes(30)
+        deadline.setHours(0)
+        deadline.setMinutes(0)
         deadline.setSeconds(0)
         clearTimer(deadline);
         // eslint-disable-next-line
@@ -112,7 +112,7 @@ const IntroPage = () => {
     }
 
     const handleOpenModalPassword = () => {
-        const expectedTime = new Date(2024, 4, 23, 10, 30, 0, 0).getTime()
+        const expectedTime = new Date(2024, 4, 23, 0, 0, 0, 0).getTime()
         const currentTime = Date.now()
 
         if (expectedTime <= currentTime) {
